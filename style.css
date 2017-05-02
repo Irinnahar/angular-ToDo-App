@@ -20,8 +20,16 @@ md-whiteframe.md-whiteframe-3dp.form.layout-align-center-center.layout-row {
 .title {
     font-size: 27px;
     font-weight: bold;
-    padding: 20px 0;
+    padding: 20px;
+    margin: 0 8px 0 0;
+    color: #fff;
+    background: #931f80;
+    border-radius: 7px 7px 0 0;
+}
+.righttitle {
+    font-size: 20px;
     color: #931f80;
+    font-weight: bold;
 }
 label {
     display: block;
@@ -55,6 +63,7 @@ md-whiteframe.md-whiteframe-3dp.list.layout-align-center-center.layout-row {
     padding: 20px;
     vertical-align: top;
     background: whitesmoke;
+    overflow-y: auto;
 }
 i.fa.fa-file-text.editbtn {
     font-size: 20px;
